@@ -1,0 +1,11 @@
+tools/
+output/
+_work/
+build/
+dist/
+*.spec
+__pycache__/
+*.apkm
+*.apks
+*.apk
+*.xapk
