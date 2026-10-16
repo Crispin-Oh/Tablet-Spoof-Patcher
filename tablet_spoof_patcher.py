@@ -277,7 +277,7 @@ class App:
         self.path = tk.StringVar()
         self.status = tk.StringVar(value="대기 중")
         self.auto_install = tk.BooleanVar(value=True)
-        self.uninstall_first = tk.BooleanVar(value=True)
+        self.uninstall_first = tk.BooleanVar(value=False)
         self.q = queue.Queue()
 
         frm = ttk.Frame(root, padding=12)
